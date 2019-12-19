@@ -1,0 +1,25 @@
+{
+int a;
+int b;
+int c;
+int d;
+int temp;
+int lcm;
+read a;
+read b;
+c = a;
+d = b;
+if(a<b){
+	temp = a%b;
+	a = b;
+	b = a;
+	}
+while(b!=0){
+	temp = a%b;
+	a = b;
+	b = temp;
+	}
+lcm = c*d;
+lcm = lcm/a;
+write lcm;
+}

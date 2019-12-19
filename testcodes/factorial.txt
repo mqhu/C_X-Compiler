@@ -1,0 +1,13 @@
+{
+int a;
+int i;
+int ans;
+i = 2;
+ans = 1;
+read a;
+while(i<=a){
+	ans = ans*i;
+	i = i+1;
+}
+write ans;
+}
